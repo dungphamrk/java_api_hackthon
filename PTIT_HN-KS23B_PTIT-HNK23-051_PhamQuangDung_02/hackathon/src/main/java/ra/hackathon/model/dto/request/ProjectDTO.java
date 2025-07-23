@@ -26,6 +26,6 @@ public class ProjectDTO {
     @NotNull
     private String startDate;
 
-    private Status status ;
+    private Status status = Status.Active ;
 }
 
